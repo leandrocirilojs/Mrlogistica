@@ -395,3 +395,36 @@ footer {
         font-size: 10px;
     }
 }
+
+
+
+
+#contato-email {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+#contato-email input, 
+#contato-email textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#contato-email button {
+    background: #003366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contato-email button:hover {
+    background: #00509e;
+}
