@@ -115,21 +115,21 @@
         <p>&copy; 2024 Transportadora MRL Logística</p>
     </footer>
 
-    <div id="whatsapp-button">
-        <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp">
-    </div>
+    <!-- Botão do WhatsApp - Adicione onclick="toggleForm()" -->
+<div id="whatsapp-button" onclick="toggleForm()">
+    <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp">
+</div>
 
-    <div id="whatsapp-form">
-        <!-- Formulário do WhatsApp será inserido aqui -->
-
-      <div id="whatsapp-form">
+<!-- Formulário WhatsApp (única ocorrência) -->
+<div id="whatsapp-form">
     <h3>Entre em contato</h3>
     <input type="text" id="nome" placeholder="Seu nome">
     <input type="tel" id="telefone" placeholder="Seu telefone">
     <input type="email" id="email" placeholder="Seu e-mail">
     <button onclick="enviarWhatsApp()">Enviar</button>
-      </div>
-    </div>
+</div>
+
+    
 
     <script src="script.js"></script>
 </body>
