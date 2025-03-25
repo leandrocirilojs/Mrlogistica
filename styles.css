@@ -225,11 +225,12 @@ footer {
 }
 
 /* Estilo do "carro" (thumb) */
+/* Estilo personalizado para o slider - Carro branco com pneus pretos */
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     width: 50px;
     height: 30px;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30"><rect x="5" y="10" width="40" height="15" rx="2" fill="%2300509e"/><rect x="10" y="5" width="30" height="5" fill="%2300509e"/><circle cx="15" cy="25" r="5" fill="%23333"/><circle cx="35" cy="25" r="5" fill="%23333"/></svg>') no-repeat center;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30"><rect x="5" y="10" width="40" height="15" rx="2" fill="%23ffffff" stroke="%23000" stroke-width="0.5"/><rect x="10" y="5" width="30" height="5" fill="%23aaddff" stroke="%23000" stroke-width="0.5"/><circle cx="15" cy="25" r="5" fill="%23000"/><circle cx="35" cy="25" r="5" fill="%23000"/></svg>') no-repeat center;
     background-size: contain;
     cursor: pointer;
     transition: transform 0.2s;
@@ -239,7 +240,7 @@ footer {
 .slider::-moz-range-thumb {
     width: 50px;
     height: 30px;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30"><rect x="5" y="10" width="40" height="15" rx="2" fill="%2300509e"/><rect x="10" y="5" width="30" height="5" fill="%2300509e"/><circle cx="15" cy="25" r="5" fill="%23333"/><circle cx="35" cy="25" r="5" fill="%23333"/></svg>') no-repeat center;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30"><rect x="5" y="10" width="40" height="15" rx="2" fill="%23ffffff" stroke="%23000" stroke-width="0.5"/><rect x="10" y="5" width="30" height="5" fill="%23aaddff" stroke="%23000" stroke-width="0.5"/><circle cx="15" cy="25" r="5" fill="%23000"/><circle cx="35" cy="25" r="5" fill="%23000"/></svg>') no-repeat center;
     background-size: contain;
     cursor: pointer;
     border: none;
